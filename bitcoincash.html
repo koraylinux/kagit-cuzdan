@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bitcoin Cash Kağıt Cüzdan Üretici</title>
+<meta name="description" content="Hafif, güvenilir, hızlı, evrensel açık kaynak kodlu kağıt cüzdan üreticisi">
+<meta name="keywords" content="minimal, hafif, güvenilir, hızlı, evrensel, kağıt, cüzdan, üretici, çevrimdışı, bitcoin, btc, kripto">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="img/style2.css">
+</head>
+<body onload="generate()">
+<div id="container"><br>
+<div class="noprint"><button class="button button2" onclick="generate()">Yeni Adres</button>
+<button class="button button1" onclick="window.print()">Yazdır</button>
+<a href="index.html"><input type="button" class="button button1" value="Anasayfa"/></a></div>
+<table>
+<tr><th id="titlePaper">Bitcoin Cash Kağıt Cüzdan</th></tr>
+<tr><th class="grayHeaders">Genel Adres <span id="shareColor">(PAYLAŞ)</span></th></tr>
+<tr><td><div id="public">Üretiliyor...</div></td></tr>
+<tr><td><div id="public_qr"></div></td></tr>
+<tr><th class="grayHeaders"><div id="secretLabel">Özel Anahtar <span id="secretColor">(GİZLİ)</span></div></th></tr>
+<tr><td><div id="secret">Üretiliyor...</div></td></tr>
+<tr><td><div id="secret_qr"></div></td></tr>
+<tr><th class="grayHeaders">Yönergeler</th>
+<tr><td><small>
+<b>1.</b> Yeni bir adres oluşturmak için <b>Yeni Adres</b> butonuna tıklayın.
+<br><b>2.</b> Oluşturduğunuz adresi yazdırmak için <b>Yazdır</b> butonuna tıklayın. Özel anahtarınız da yazdırılacağı için güvenli bir yerde saklayın.
+<br><b>3. Genel Adres</b> ödeme almak içindir. Dilediğiniz kadar kişiyle paylaşabilirsiniz.
+<br><b>4. Özel Anahtar</b> ödeme yapmak içindir. Hiç bir koşul altında kimseyle paylaşmayın!
+</small></td></tr>
+</table>
+</div>
+<script src="js/bitcoincash-0.1.10.js"></script>
+<script src="js/qrcode.js"></script>
+<script>
+function generate() {
+const keyPair = new bch.PrivateKey();
+const privKey = keyPair.toWIF();
+const pubKey = keyPair.toAddress();
+document.getElementById("public").textContent = pubKey;
+document.getElementById("secret").textContent = privKey;
+document.getElementById("public_qr").textContent = "";
+document.getElementById("secret_qr").textContent = "";
+new QRCode(document.getElementById("public_qr"), {text: pubKey, width: 128, height: 128, correctLevel : QRCode.CorrectLevel.H});
+new QRCode(document.getElementById("secret_qr"), {text: privKey, width: 128, height: 128, correctLevel : QRCode.CorrectLevel.H});}
+document.getElementById("update").textContent = "Latest update: " + document.lastModified;
+</script>
+</body>
+</html>
