@@ -1574,34 +1574,24 @@
 															<a href="#" class="erc20">Zilliqa(ZIL)</a>
 														</li>
 													</ol>
-													<br>
-														<br>
-															<small>
-																Üreticiyi sadece demo amaçlı kullanın. Daha fazlası için <a href="https://github.com/koraylinux/kagit-cuzdan" target=_blank>Github</a> deposuna bakabilirsiniz.
-																<br>
-																	<br>Beğendiyseniz, lütfen küçük bir bağış yapın.
-																		<br>
-																			<br>
-        BTC: 3MEmomSUDWqWmEtRNoakSxF9ZgZuxn8tJj
-																				<br>
-																					<br>
-																					</small>
-																				</div>
-																				<script>
-function Search() {
-var input, filter, ul, li, a, i;
-input = document.getElementById("searchInput");
-filter = input.value.toUpperCase();
-ul = document.getElementById("searchOL");
-li = ul.getElementsByTagName("li");
-for (i = 0; i < li.length; i++) {
-a = li[i].getElementsByTagName("a")[0];
-if (a.textContent.toUpperCase().indexOf(filter) > -1) {li[i].style.display = "";} 
-else {li[i].style.display = "none";}
-}}
-var ol = document.getElementById("searchOL");
-ol.onclick = function(event) {var target = event.target;if(target.className === "erc20"){if (location.hostname === "") window.location.replace("ethereum.html?"+ target.textContent);else window.location.replace("ethereum.html?"+  target.textContent);}};
-
-																				</script>
-																			</body>
-																		</html>
+															<p align="center">
+																Detaylı bilgi için <a href="https://github.com/koraylinux/kagit-cuzdan" target=_blank>Github</a> kaynağı
+															</p>
+													</div>
+		<script>
+			function Search() {
+			var input, filter, ul, li, a, i;
+			input = document.getElementById("searchInput");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("searchOL");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+			a = li[i].getElementsByTagName("a")[0];
+			if (a.textContent.toUpperCase().indexOf(filter) > -1) {li[i].style.display = "";} 
+			else {li[i].style.display = "none";}
+			}}
+			var ol = document.getElementById("searchOL");
+			ol.onclick = function(event) {var target = event.target;if(target.className === "erc20"){if (location.hostname === "") window.location.replace("ethereum.html?"+ target.textContent);else window.location.replace("ethereum.html?"+  target.textContent);}};
+		</script>
+	</body>
+</html>
