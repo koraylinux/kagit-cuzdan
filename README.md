@@ -24,7 +24,7 @@ Lütfen kullanmaktan çekinmeyin.
 * Özel anahtarınız bakiyenizi harcamak için kullanılır. Asla paylaşmayın!
 
 #### Bağışlar için
-**BTC**: 3MEmomSUDWqWmEtRNoakSxF9ZgZuxn8tJj   
+**BTC**: 3KEERgTDCn94rZ1dWfxfGi9XzLrr9QeSRa   
 
 
 #### Bütünlük doğrulama
