@@ -6,21 +6,21 @@
 			<meta name="description" content="Hafif, güvenilir, hızlı, evrensel açık kaynak kodlu kağıt cüzdan üreticisi">
 			<meta name="keywords" content="minimal, hafif, güvenilir, hızlı, evrensel, kağıt, cüzdan, üretici, çevrimdışı, banano, kripto">
 					<meta name="viewport" content="width=device-width, initial-scale=1">
-								<link rel="stylesheet" href="img/style2.css">
+								<link rel="stylesheet" href="css/style2.css">
 								</head>
 								<body onload="generate()">
 									<div id="container">
 										<br>
 											<div class="noprint">
-												<button class="button button2" onclick="generate()">Yeni Adres</button>
-												<button class="button button1" onclick="window.print()">Yazdır</button>
+												<button onclick="generate()">Yeni Adres</button>
+												<button onclick="window.print()">Yazdır</button>
 												<a href="index.html">
-													<input type="button" class="button button1" value="Anasayfa"/>
+													<input type="button" value="Anasayfa"/>
 												</a>
 											</div>
 											<table>
 												<tr>
-													<th id="titlePaper">Banano Kağıt Cüzdan</th>
+													<h1 id="titlePaper">Banano Kağıt Cüzdan</h1>
 												</tr>
 												<tr>
 													<th class="grayHeaders">Genel Adres 
@@ -57,7 +57,7 @@
 												<tr>
 															</table>
 														</div>
-														<script src="js/banano-coin.js"></script>
+														<script src="js/banano.js"></script>
 														<script src="js/qrcode.js"></script>
 														<script>
 function generate() {

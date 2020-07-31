@@ -1,33 +1,37 @@
 ### Hafif, açık kaynak kodlu, evrensel bir kağıt cüzdan üreticisi
 
-#### Önsöz
-Bağımsız kuruluşlar tarafından uygun kod denetimi yapılmadan, kağıt cüzdan oluşturma sitelerini kullanmaktan kesinlikle kaçınılmalıdır. Gereksiz kodlar ve kötü yazılmış kütüphaneler sıklıkla kullanılır, bu da kullanıcılar için büyük bir güvenlik riski oluşturur. Bazı servisler, cüzdan üreticilerin çevrimdışında çalıştıklarını ve böylece kullanıcılarının özel anahtar hırsızlığa karşı bağışık olduklarını bildirmektedir.
+* Basit, etkili ve güvenlidir
 
-Bununla birlikte, bir çevrimdışı kağıt cüzdan üreticisinin, bu bilgiyi herhangi bir şekilde iletme gereği duymadan, determinist olarak anahtarlar oluşturması olasılığı hala mevcuttur. Bu nedenle, uygun araştırma yapmadan rastgele bir çevrimdışı kağıt cüzdan üreticisine güvenmeyin. Öte yandan, bu evrensel üretici, hiç bir kötü kod içermez, ancak gerekli iyi kodları kullanır.
-
-Lütfen kullanmaktan çekinmeyin.
-
-#### Özellikler
-* Basit, etkili, güvenli
 * İstemci taraflı çevrimdışı çalışır
+
 * Düzenli güncelleme sağlanır
-* Şeffaftır ve denetlemesi kolaydır
+
+* Şeffaftır ve kod denetlemesi kolaydır
+
 * Az mürekkep kullanır
+
 * Kullanılan dosyaların değiştirilmediği sha-256 bütünlüğü ile kolayca doğrulanabilir
+
 * 510'dan fazla kripto para destekler
 
+  
+
 #### Yönergeler
-* Maksimum güvenlik için bu üreticiyi kesinlikle çevrimdışı kullanın.
-* Bilgisayarınıza indirin ve internet bağlantınızı kesin.
-* Cüzdanınızı oluşturun, yazdırın ve mutlaka güvenli bir yerde saklayın.
-* Kağıt cüzdanınızdaki genel adrese gönderim yaparak bakiye yatırın.
-* Özel anahtarınız bakiyenizi harcamak için kullanılır. Asla paylaşmayın!
+Kağıt cüzdan üreticisini sadece demo amaçlı kullanın. Uzun vadeli kullanımlarınız için üreticinin GitHub sayfasına gidin ve bilgisayarınıza indirin. Üreticiyi çalıştırmadan önce bilgisayarınızın internet bağlantısını kesinlikle kesmenizi öneriyorum. Yeterli sayıda cüzdan oluşturduktan sonra yazıcının belleğini temizleyin. Bunun için yazıcının fişini çekip 5 dakika kapalı tutmanız yeterlidir. Yazdırdığınız cüzdanın yanına dilerseniz pdf olarak kaydettiğiniz cüzdan dosyalarını da bir usb bellek içinde saklayabilirsiniz. Kaydettiğiniz PDF dosyalarınızı usb belleğe taşımadan internet bağlantınızı aktif hale getirmeyin. Dosyaları güvenli bir ortamda sakladığınızdan emin olun ve en yakınlarınızla dahi paylaşmayın. Bitcoin özel anahtarları kişiye özeldir ve asla paylaşılmamalıdır.
+
+Genel Adres ödeme almak içindir. Dilediğiniz kadar kişiyle paylaşabilirsiniz ancak her ödeme için yalnızca 1 adres kullanmanızı tavsiye ediyorum. Ödemenizi alıp işinizi tamamladığınızda başka bir adres oluşturun. Böylece işlemleriniz başkaları tarafından takip edilemez ve mümkün olduğunca anonim kalırsınız.
+
+Özel Anahtar coinlerinize ulaşmanın en basit yoludur bu yüzden kesinlikle bir başkasının ulaşamayacağı yerde saklayın. Ayrıca cüzdan üretici size mnemonic seed vermediği için özel anahtarı kaybetmeniz durumunda coinlerinize de elveda demek zorunda kalırsınız. Kendi cüzdanınızdaki paraya ne kadar değer veriyorsanız özel anahtara da aynı şekilde davranın.
+
+
 
 #### Bağışlar için
 **BTC**: 3KEERgTDCn94rZ1dWfxfGi9XzLrr9QeSRa   
 
 
+
 #### Bütünlük doğrulama
+
 * [bitcoinjs-lib.js](https://github.com/bitcoinjs/bitcoinjs-lib) v3.3.2
 	* [SHA-256] 34fb2141b70f690a8eb9fa75e703e99b39f8538201250115fc895343b7739708
 * [bitcoincash-0.1.10.js](https://github.com/bitcoincashjs/bitcoincashjs)
