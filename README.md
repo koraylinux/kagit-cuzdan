@@ -1,4 +1,4 @@
-### Hafif, açık kaynak kodlu, evrensel bir kağıt cüzdan üreticisi
+### Hafif, açık kaynak kodlu, evrensel soğuk cüzdan üreticisi
 
 * Basit, etkili ve güvenlidir
 
@@ -12,21 +12,21 @@
 
 * Kullanılan dosyaların değiştirilmediği sha-256 bütünlüğü ile kolayca doğrulanabilir
 
-* 510'dan fazla kripto para destekler
+* 500'den fazla kripto para destekler
 
   
 
 #### Yönergeler
-Kağıt cüzdan üreticisini sadece demo amaçlı kullanın. Uzun vadeli kullanımlarınız için üreticinin GitHub sayfasına gidin ve bilgisayarınıza indirin. Üreticiyi çalıştırmadan önce bilgisayarınızın internet bağlantısını kesinlikle kesmenizi öneriyorum. Yeterli sayıda cüzdan oluşturduktan sonra yazıcının belleğini temizleyin. Bunun için yazıcının fişini çekip 5 dakika kapalı tutmanız yeterlidir. Yazdırdığınız cüzdanın yanına dilerseniz pdf olarak kaydettiğiniz cüzdan dosyalarını da bir usb bellek içinde saklayabilirsiniz. Kaydettiğiniz PDF dosyalarınızı usb belleğe taşımadan internet bağlantınızı aktif hale getirmeyin. Dosyaları güvenli bir ortamda sakladığınızdan emin olun ve en yakınlarınızla dahi paylaşmayın. Bitcoin özel anahtarları kişiye özeldir ve asla paylaşılmamalıdır.
+Soğuk cüzdan üreticisini çevrimiçi sadece demo amaçlı kullanın. Uzun vadeli kullanımlarınız için üreticinin GitHub sayfasına gidin ve bilgisayarınıza indirin. Üreticiyi çalıştırmadan önce bilgisayarınızın internet bağlantısını kesinlikle kesmenizi öneriyorum. Yeterli sayıda cüzdan oluşturup yazdırdıktan sonra yazıcının belleğini temizleyin. Bunun için yazıcının fişini çekip 5 dakika kapalı tutmanız yeterlidir. Yazdırdığınız cüzdanlarla birlikte, dilerseniz pdf olarak kaydettiğiniz cüzdan dosyalarını da bir usb bellek içinde saklayabilirsiniz. Kaydettiğiniz PDF dosyalarınızı usb belleğe taşımadan internet bağlantınızı aktif hale getirmeyin. Dosyaları güvenli bir ortamda sakladığınızdan emin olun ve en yakınlarınızla dahi paylaşmayın. Bitcoin özel anahtarları kişiye özeldir ve asla paylaşılmamalıdır.
 
 Genel Adres ödeme almak içindir. Dilediğiniz kadar kişiyle paylaşabilirsiniz ancak her ödeme için yalnızca 1 adres kullanmanızı tavsiye ediyorum. Ödemenizi alıp işinizi tamamladığınızda başka bir adres oluşturun. Böylece işlemleriniz başkaları tarafından takip edilemez ve mümkün olduğunca anonim kalırsınız.
 
-Özel Anahtar coinlerinize ulaşmanın en basit yoludur bu yüzden kesinlikle bir başkasının ulaşamayacağı yerde saklayın. Ayrıca cüzdan üretici size mnemonic seed vermediği için özel anahtarı kaybetmeniz durumunda coinlerinize de elveda demek zorunda kalırsınız. Kendi cüzdanınızdaki paraya ne kadar değer veriyorsanız özel anahtara da aynı şekilde davranın.
+Özel Anahtar coinlerinize ulaşmanın en basit yoludur, bu yüzden kesinlikle bir başkasının ulaşamayacağı yerde saklayın. Ayrıca soğuk cüzdan üreticisi size mnemonic seed vermediği için özel anahtarı kaybetmeniz durumunda coinlerinize de elveda demek zorunda kalırsınız. Kendi cüzdanınızdaki paraya ne kadar değer veriyorsanız, özel anahtara da aynı şekilde davranın.
 
 
 
 #### Bağışlar için
-**BTC**: 3KEERgTDCn94rZ1dWfxfGi9XzLrr9QeSRa   
+**BTC**: 3NYhBqfARc1UjHw5B7QWArpK96949XwjaK   
 
 
 

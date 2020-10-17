@@ -2,11 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Ethereum Kağıt Cüzdan Üretici</title>
-<meta name="description" content="Hafif, güvenilir, hızlı, evrensel açık kaynak kodlu kağıt cüzdan üreticisi">
-<meta name="keywords" content="minimal, hafif, güvenilir, hızlı, evrensel, kağıt, cüzdan, üretici, çevrimdışı, bitcoin, btc, kripto">
+<title>Ethereum Soğuk Cüzdan</title>
+<meta name="description" content="Hafif, güvenilir, hızlı, evrensel açık kaynak kodlu soğuk kağıt cüzdan üreticisi">
+<meta name="keywords" content="minimal, hafif, güvenilir, hızlı, evrensel, kağıt, soğuk, cüzdan, üretici, çevrimdışı, bitcoin, btc, kripto">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="css/style2.css">
 </head>
 <body onload="generate()">
@@ -15,7 +14,7 @@
 <button class="button button1" onclick="window.print()">Yazdır</button>
 <a href="index.html"><input type="button" class="button button1" value="Anasayfa"/></a></div>
 <table>
-<tr><th id="titlePaper"><span id="currencyName">Ethereum</span> Kağıt Cüzdan</th></tr>
+<tr><th id="titlePaper"><span id="currencyName">Ethereum</span> Soğuk Cüzdan</th></tr>
 <tr><th class="grayHeaders">Genel Adres <span id="shareColor">(PAYLAŞ)</span></th></tr>
 <tr><td><div id="public">Üretiliyor...</div></td></tr>
 <tr><td><div id="public_qr"></div></td></tr>
@@ -24,7 +23,7 @@
 <tr><td><div id="secret_qr"></div></td></tr>
 </table>
 </div>
-<script>const urlParam = window.location.search.substring(1); if(urlParam){document.getElementById("currencyName").textContent = urlParam; document.title = urlParam + " Paper Wallet Generator";}</script>
+<script>const urlParam = window.location.search.substring(1); if(urlParam){document.getElementById("currencyName").textContent = urlParam; document.title = urlParam + " Soğuk Cüzdan";}</script>
 <script src="js/web3-eth-accounts.js"></script>
 <script src="js/qrcode.js"></script>
 <script>
