@@ -21,12 +21,7 @@ Soğuk cüzdan üreticisini çevrimiçi sadece demo amaçlı kullanın. Uzun vad
 
 Genel Adres ödeme almak içindir. Dilediğiniz kadar kişiyle paylaşabilirsiniz ancak her ödeme için yalnızca 1 adres kullanmanızı tavsiye ediyorum. Ödemenizi alıp işinizi tamamladığınızda başka bir adres oluşturun. Böylece işlemleriniz başkaları tarafından takip edilemez ve mümkün olduğunca anonim kalırsınız.
 
-Özel Anahtar coinlerinize ulaşmanın en basit yoludur, bu yüzden kesinlikle bir başkasının ulaşamayacağı yerde saklayın. Ayrıca soğuk cüzdan üreticisi size mnemonic seed vermediği için özel anahtarı kaybetmeniz durumunda coinlerinize de elveda demek zorunda kalırsınız. Kendi cüzdanınızdaki paraya ne kadar değer veriyorsanız, özel anahtara da aynı şekilde davranın.
-
-
-
-#### Bağışlar için
-**BTC**: 3NYhBqfARc1UjHw5B7QWArpK96949XwjaK   
+Özel Anahtar coinlerinize ulaşmanın en basit yoludur, bu yüzden kesinlikle bir başkasının ulaşamayacağı yerde saklayın. Ayrıca soğuk cüzdan üreticisi size mnemonic seed vermediği için özel anahtarı kaybetmeniz durumunda coinlerinize de elveda demek zorunda kalırsınız. Kendi cüzdanınızdaki paraya ne kadar değer veriyorsanız, özel anahtara da aynı şekilde davranın. 
 
 
 
